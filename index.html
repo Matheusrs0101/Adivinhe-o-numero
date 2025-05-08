@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="text01">
+    <h1 class="titulo">ADIVINHE O NUMERO SECRETO🤔</h1>
+    <p class="paragrafo">Escolha um numero de 0 a 100 e o sistema validara se acertou ou errou, 10 chances para acertar o numero e daremos dicas se o número escolhido por você é maior ou menor que o número secreto. </p>
+</div>
+    <div class="box">
+    <label for="Sort">Digite seu Numero da Sorte:</label> 
+    <input type="number" id="Sort" name="Sort" min="1" max="100" required>
+</div>
+    <button onclick="jogar()" id="button" class="btn">Chutar</button>
+
+    <p class="msg" id="msg"></p>
+    <p class="numbersecret" id="numbersecret"></p>
+    <p class="tent" id="tent"></p>
+    <p class="fim" id="Fimdejogo"></p>
+
+</body>
+</html>
