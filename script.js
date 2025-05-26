@@ -41,9 +41,15 @@ let numberdigit = document.getElementById("Sort").value;// variavel que recebe n
         tentativas++;  
          
     } 
+
+       
+
+}    
     
-    
+function reiniciar(){
+        window.location.href = "index.html"
 }
+
 
 
 
